@@ -1,0 +1,21 @@
+#imgPreview {
+    height: 100px;
+    width: 100px;
+}
+
+#imgFile {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.btn-fileget {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: rgb(104, 103, 102);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: 100ms ease-out;
+    cursor: pointer;
+}
