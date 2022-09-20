@@ -53,7 +53,7 @@ const Form = () => {
                 </div>
             </div>
 
-            <div className="d-flex justify-content-between w-100 col-auto">
+            <div className="d-flex justify-content-between w-100 mb-5 col-auto">
 
                 <div className="form-check">
                     <input className="form-check-input border border-primary" type="checkbox" id="autoSizingCheck" />
