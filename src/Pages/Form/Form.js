@@ -155,8 +155,8 @@ const Form = () => {
             <div className='d-flex align-items-center mt-4'>
 
                 <div className='ms-lg-5'>
-                    {selectedImage.length == 0 ? <div>
-                        <img src={defaultImg} alt="" id="imgFile" />
+                    {selectedImage.length === 0 ? <div>
+                        <img src={defaultImg} alt="" id="imgPreview" />
                     </div> :
                         selectedImage.map((image, index) => {
                             return (

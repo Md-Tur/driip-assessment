@@ -1,12 +1,7 @@
 #imgPreview {
     height: 100px;
     width: 100px;
-}
-
-#imgFile {
-    height: 100px;
-    width: 100px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .btn-fileget {
