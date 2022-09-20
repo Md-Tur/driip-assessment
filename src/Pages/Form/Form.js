@@ -155,21 +155,18 @@ const Form = () => {
             <div className='d-flex align-items-center mt-4'>
 
                 <div className='ms-lg-5'>
-                    {selectedImage &&
+                    {selectedImage.length == 0 ? <div>
+                        <img src={defaultImg} alt="" id="imgFile" />
+                    </div> :
                         selectedImage.map((image, index) => {
                             return (
                                 <div key={index}>
                                     <img src={image} alt="" id='imgPreview' />
                                 </div>
                             );
-                        })}
+                        })
 
-                    :
-
-                    <div>
-                        <img src={defaultImg} alt="" id="imgFile" />
-                    </div>
-
+                    }
                 </div>
 
                 <div className='ms-3'>
