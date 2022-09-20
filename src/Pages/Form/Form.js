@@ -158,7 +158,7 @@ const Form = () => {
                     {selectedImage &&
                         selectedImage.map((image, index) => {
                             return (
-                                <div key={image}>
+                                <div key={index}>
                                     <img src={image} alt="" id='imgPreview' />
                                 </div>
                             );
